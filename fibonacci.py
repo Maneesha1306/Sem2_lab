@@ -1,8 +1,9 @@
 n=int(input("Enter number:"))
-a=-1
+a=0
 b=1
+print("The fibonacci series is:")
 for i in range(n):
+    print(a)
     c=a+b
-    print(c)
     a,b=b,c
     
